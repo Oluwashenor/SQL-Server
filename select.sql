@@ -1,4 +1,4 @@
--- The command below names the column MyAnswer by using the 'AS' command-- 
+-- The command below names the column MyAnswer by using the 'AS' command, AS is optional-- 
 SELECT 4+9 AS MyAnswer 
 
 
