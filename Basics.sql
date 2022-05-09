@@ -11,6 +11,26 @@ CREATE TABLE tblEmployee
  columnNameB datatype
 )
 
+ALTER TABLE tableName 
+Add columnName datatype
+
+ALTER TABLE tblEmployee
+ADD Department VARCHAR(10)
+
+
+--Command below removes a column from a table --
+ALTER TABLE tblEmployee
+DROP COLUMN Department
+
+-- The command below modifies a table --
+ALTER TABLE tblEmployee
+ALTER COLUMN columnName datatype
+
 --Used to select the right context--
 use [DatabaseName]
 go
+
+
+Update TABLEName
+Set ColumnName = NULL
+Where ColumnName = ''

@@ -17,6 +17,6 @@ PI() -- basic pi in mathematices
 
 EXP(1)
 ABS() --- Absolute value take away minus sign and returns the positive value
-SIGN()
+SIGN()   --  gives -1 for negative numbers, 0 for zero input, and 1 for positive numbers
 RAND(345) --- Random value  
 
