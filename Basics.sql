@@ -11,11 +11,18 @@ CREATE TABLE tblEmployee
  columnNameB datatype
 )
 
+create table tablename (columnA smallmoney not null,
+ columnB smalldate not null,
+ CONSTRAINT CONSTRAINTName unique (columnA, COLUMNB)
+ )
+
 ALTER TABLE tableName 
 Add columnName datatype
 
 ALTER TABLE tblEmployee
 ADD Department VARCHAR(10)
+
+
 
 
 --Command below removes a column from a table --
