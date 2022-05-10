@@ -37,6 +37,8 @@ ALTER COLUMN columnName datatype
 use [DatabaseName]
 go
 
+-- GO defends the end of a batch 
+
 
 Update TABLEName
 Set ColumnName = NULL
