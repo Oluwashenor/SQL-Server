@@ -23,3 +23,21 @@ BEGIN
     select * from Deleted
 END
 Go
+
+
+-- NEST LEVEL --
+ALTER TRIGGER trigger_name 
+on tablename
+AFTER delete, insert,update
+as 
+BEGIN
+    select @@nestlevel as Nest_Level 
+    select * from Inserted
+    select * from Deleted
+END
+Go
+
+@@rowcount -- global variable
+@@nestlevel  -- global variable - can only go as high as 32 
+-- Nested Triggers
+

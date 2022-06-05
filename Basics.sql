@@ -43,3 +43,6 @@ go
 Update TABLEName
 Set ColumnName = NULL
 Where ColumnName = ''
+
+update tablename 
+set
